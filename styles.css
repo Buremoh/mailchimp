@@ -1,0 +1,94 @@
+body {
+font-family: Graphik Web,Helvetica Neue,Helvetica,Arial,Verdana,sans-serif;
+}
+button {
+background-color: #007c89;
+color: white;
+padding: 15px 32px;
+margin: 10px 10px;
+border: none;
+cursor: pointer;
+width: 30%;
+height:10%;
+text-align: center;
+font-size:16px;
+}
+
+button:hover {
+opacity: 0.8;
+}
+a:hover{
+    color:white;
+}
+.header {
+    grid-area:header;
+    padding:20px;;
+}
+.content {
+    grid-area:content;
+}
+.box {
+    color: black;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 100%; 
+  }
+  .box:nth-child(even) {
+        color: #000;
+  }
+  .wrapper {
+    width: 1297px;
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat(8, 15% 15% 15% 5% 10% 10% 30%);
+    grid-template-rows: 20%;
+    background:#FFDE05;
+    padding:20px;
+}
+.container1 {
+display:grid;
+grid-gap:15px;
+grid-template-columns: repeat(2, 50% 50%);
+height:500px;
+width:1237px;
+background: #FFDE05;
+color:black;
+text-align:left;
+padding-left:100px;
+
+}
+.container2 {
+display:grid;
+grid-gap:15px;
+grid-template-columns: repeat(2, 50% 50%);
+height:500px;
+width:1237px;
+background-color:white;
+color:black;
+text-align:left;
+padding-left:100px;
+
+}
+.container3 {
+display:grid;
+grid-gap:15px;
+grid-template-columns: repeat(2, 50% 50%);
+height:500px;
+width:1237px;
+background-color:rgb(210, 210, 240);
+color:black;
+text-align:left;
+padding-left:100px;
+
+}
+.menu-container{
+    width:250px;
+    border:1px solid #007c89;
+    padding-top:10px;
+}
+.action-container{
+    display:inline-block;
+    margin-bottom: 5px;
+    padding-left:10px;
+}
+
